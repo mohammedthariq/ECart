@@ -1,0 +1,83 @@
+/* eCartHeader.css */
+
+
+.ecart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  .fa-cart-shopping:before, .fa-shopping-cart:before {
+    content: "\f07a";
+    color: #ff9800!important;
+}
+  b{
+    color: #fff;
+  }
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #ff9800;
+    overflow-y: hidden;
+  }
+  
+  .search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+  }
+  
+  .search-bar button {
+    padding: 8px 15px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-cart, .icon-heart {
+    font-size: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+  }
+  
+  .icon-heart {
+    color: red;
+  }
+  
+  .icon-cart {
+    color: green;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .ecart-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .search-bar {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .icons {
+      margin-top: 10px;
+    }
+  }
+  

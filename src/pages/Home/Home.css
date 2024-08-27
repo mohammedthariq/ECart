@@ -1,0 +1,53 @@
+.card img{
+    height: 300px;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    height: 3rem; /* Adjust as needed */
+    overflow: hidden;
+}
+.fa-cart-shopping:before, .fa-shopping-cart:before {
+    content: "\f07a";
+    color: #000;
+}
+
+.fa-heart:before {
+    content: "\f004";
+    color: red;
+}
+
+
+
+.read-more-btn {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-summary {
+    display: block;
+}
+.cart-icons i{
+    font-size: 30px; 
+
+}
+.cart-icons{
+    justify-content: space-between;
+    display: flex;
+}
+
+
